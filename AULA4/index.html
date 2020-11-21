@@ -5,62 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.:Minha Lojinha na Internet:.</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <div id="cabecalho">
-        <h1>Minha Lojinha na Internet</h1>
-    </div>
-
-    <div id="navbar">
-        <div><a href="index.html"> Home </a> </div>
-        <div><a href="quemsomos.html"> Quem Somos </a> </div>
-        <div><a href="contato.html"> Contato </a> </div>
-        <div><a href="blog.html"> Fique por Dentro </a> </div>
-    </div>
-
-    <div id="imagemGeral">
-        <img src="imagens/loja.png" alt="">
-    </div>
-
-    <div id=TituloDestaque>
-        <h2>Produtos em Destaque</h2>
-    </div>
-
-    <div id=produtos>
-        <div class="produtodestaque">
-            <img src="imagens/produto1.png" alt="">
-            <h3>R$ 10,00</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum voluptatem aliquam impedit molestias facilis praesentium aperiam fuga cupiditate soluta, quasi pariatur ipsam iusto minus, delectus magnam obcaecati corrupti nihil.</p>
-        </div>
-        
-
-        <div class="produtodestaque">
-            <img src="imagens/produto2.jpg" alt="">
-            <h3>R$ 20,00</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum voluptatem aliquam impedit molestias facilis praesentium aperiam fuga cupiditate soluta, quasi pariatur ipsam iusto minus, delectus magnam obcaecati corrupti nihil.</p>
+    <div id="conteudo">
+        <div id="cabecalho">
+            <h1>Minha Lojinha na Internet</h1>
         </div>
 
-        <div class="produtodestaque">
-            <img src="imagens/produto3.png" alt="">
-            <h3>R$ 30,00</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum voluptatem aliquam impedit molestias facilis praesentium aperiam fuga cupiditate soluta, quasi pariatur ipsam iusto minus, delectus magnam obcaecati corrupti nihil.</p>
+        <div id="navbar">
+            <div><a href="index.html"> Home </a> </div>
+            <div><a href="quemsomos.html"> Quem Somos </a> </div>
+            <div><a href="contato.html"> Contato </a> </div>
+            <div><a href="blog.html"> Fique por Dentro </a> </div>
         </div>
 
+        <div id="imagemGeral">
+            <img id="imgloja" src="imagens/loja.png" alt="">
+        </div>
+
+        <div id=TituloDestaque>
+            <h2>Produtos em Destaque</h2>
+        </div>
+
+        <div id=produtos>
+            <div class="produtodestaque">
+                <img class="imgDestaque" src="imagens/produto1.png" alt="">
+                <h3>R$ 10,00</h3>
+                <p class= "DescDestaque">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum voluptatem aliquam impedit
+                    molestias facilis praesentium aperiam fuga cupiditate soluta, quasi pariatur ipsam iusto minus,
+                    delectus magnam obcaecati corrupti nihil.</p>
+            </div>
+
+
+            <div class="produtodestaque">
+                <img class="imgDestaque" src="imagens/produto2.jpg" alt="">
+                <h3>R$ 20,00</h3>
+                <p class= "DescDestaque">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum voluptatem aliquam impedit
+                    molestias facilis praesentium aperiam fuga cupiditate soluta, quasi pariatur ipsam iusto minus,
+                    delectus magnam obcaecati corrupti nihil.</p>
+            </div>
+
+            <div class="produtodestaque">
+                <img class="imgDestaque" src="imagens/produto3.png" alt="">
+                <h3>R$ 30,00</h3>
+                <p class= "DescDestaque">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum voluptatem aliquam impedit
+                    molestias facilis praesentium aperiam fuga cupiditate soluta, quasi pariatur ipsam iusto minus,
+                    delectus magnam obcaecati corrupti nihil.</p>
+            </div>
+
+        </div>
     </div>
 
     <div id="rodape">
 
         <div id="redessociais">
-            <img src="imagens/whats.jpg">+55 (11) 98765-4321 <br>
-            <img src="imagens/facebok.jpg"> @minhalojinhanainternet <br>
-            <img src="imagens/instagram.jpg"> @minhalojinhanainternet <br>
-            <img src="imagens/twiter.png"> @minhalojinhanainternet <br>
+
+            <div class="rede"><img src="imagens/whats.jpg" width="20%">+55 (11) 98765-4321</div>
+
+            <div class="rede"><img src="imagens/facebook.png" width="20%">@minhalojinhanainternet</div>
+
+            <div class="rede"><img src="imagens/instagram.jpg" width="20%"> @minhalojinhanainternet</div>
+
+            <div class="rede"><img src="imagens/twitter.jpg" width="20%"> @minhalojinhanainternet</div>
         </div>
 
         <div id="email">
-            <h3>Receba nossa novidades</h3>
-            <input type="email" id="inputEmail" placeholder="digite seu e-mail"/>
+            <h3 id="receba">Receba nossa novidades</h3>
+            <input type="email" id="inputEmail" placeholder="digite seu e-mail" />
             <button>Enviar!</button>
         </div>
 
